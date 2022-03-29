@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TicTocToe</title>
+        <link rel="stylesheet" href="tic.css">
+    </head>
+    <body>
+        <div id="box">
+            <span id="won"></span>
+            <div class="container">
+        
+            <div class="divo" id="1" onclick="clicked(1)"></div>
+            <div class="divo" id="2" onclick="clicked(2)"></div>
+            <div class="divo" id="3" onclick="clicked(3)"></div>
+
+        
+    
+            <div class="divo" id="4" onclick="clicked(4)"></div>
+            <div class="divo" id="5" onclick="clicked(5)"></div>
+            <div class="divo" id="6" onclick="clicked(6)"></div>
+
+           <div class="divo"  id="7" onclick="clicked(7)"></div>
+            <div class="divo" id="8" onclick="clicked(8)"></div>
+            <div class="divo" id="9" onclick="clicked(9)"></div>
+        <div class= "wining">
+          <span id="message"></span>
+        </div>
+        
+        <button id="btn" onclick="reset()" > Play Again</button>
+    </div>
+    <div id="wonX">
+        <br>
+        <span id="number">Won By X</span>
+        <br>
+        <div id="forX"></div>
+        </div>
+        <div id="wonO">
+            <br>
+            <span id="number">Won By O</span>
+            <br>
+         <div id="forO" ></div>
+
+     </div>
+</div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="tic.js"></script>
+</body>
+</html>
